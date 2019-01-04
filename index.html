@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+
 	<title>Sister's Makers</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Noto+Sans+JP" rel="stylesheet">
+
 </head>
 <body>
 	<!--Navbar-->
@@ -14,92 +17,93 @@
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<i class="material-icons"><a href="#" class=" md-light">home</a></i>
+				<li class="nav-item">
+					<a class="nav-link logoLetritas" href="#"></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link logoLetritas" href="#">Inicio<i class="material-icons">home</i></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link logoLetritas" href="#">Productos<i class="material-icons">favorite</i></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link logoLetritas" href="#">Eventos Próximos <i class="material-icons">calendar_today</i></a>
 				</li>
 			</ul>
 			<form class="form-inline my-2 my-lg-0">
-				<button class="btn btn-outline-light my-2 my-sm-0" type="submit">Acceder</button>
+				<button class="btn btn-outline-light my-2 my-sm-0" type="submit"><span class="soloLetra">Acceder</span></button>
 			</form>
 		</div>
 	</nav>
 	<!--Navbar-->
-	<!--Carrousel-->
-	<div class="carousel slide" id="secondary-carousel" data-ride="carousel">
-		<ol class="carousel-indicators">
-			<li data-target="#secondary-carousel" data-slide-to="0" class="active"></li>
-			<li data-target="#secondary-carousel" data-slide-to="1"></li>
-			<li data-target="#secondary-carousel" data-slide-to="2"></li>
-		</ol>
+	<div>
+		<!--Carrousel-->
+		<div class="carousel slide" id="secondary-carousel" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#secondary-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#secondary-carousel" data-slide-to="1"></li>
+				<li data-target="#secondary-carousel" data-slide-to="2"></li>
+			</ol>
 
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<div class="carousel-caption d-block">
-					<h4>Titulo de la Imagen</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, possimus!</p>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="carousel-caption d-block">
+					</div>
+					<img class="expansion" src="img/propa1.png" alt="">
 				</div>
-				<img src="img/carousel1.jpg" alt="">
-			</div>
-			<div class="carousel-item">
-				<div class="carousel-caption d-block">
-					<h4>Titulo de la Imagen</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, possimus!</p>
+				<div class="carousel-item">
+					<div class="carousel-caption d-block">
+					</div>
+					<img class="expansion" src="img/propa2.png" alt="">
 				</div>
-				<img src="img/carousel2.jpg" alt="">
-			</div>
-			<div class="carousel-item">
-				<div class="carousel-caption d-block">
-					<h4>Titulo de la Imagen</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, possimus!</p>
+				<div class="carousel-item">
+					<div class="carousel-caption d-block">
+					</div>
+					<img class="expansion" src="img/propa3.png" alt="">
 				</div>
-				<img src="img/carousel3.jpg" alt="">
 			</div>
+
+			<a href="#secondary-carousel" class="carousel-control-prev" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Anterior</span>
+			</a>
+
+			<a href="#secondary-carousel" class="carousel-control-next" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Siguiente</span>
+			</a>
 		</div>
-
-		<a href="#secondary-carousel" class="carousel-control-prev" data-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="sr-only">Anterior</span>
-		</a>
-
-		<a href="#secondary-carousel" class="carousel-control-next" data-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="sr-only">Siguiente</span>
-		</a>
+		<!--Carrousel-->
 	</div>
 
-	<!--Carrousel-->
-	<!--Paginación-->
-	<center>
-	<nav aria-label="Page navigation example">
-		<ul class="pagination">
-			<li class="page-item"><a class="page-link" href="#">Previous</a></li>
-			<li class="page-item"><a class="page-link" href="#">1</a></li>
-			<li class="page-item"><a class="page-link" href="#">2</a></li>
-			<li class="page-item"><a class="page-link" href="#">3</a></li>
-			<li class="page-item"><a class="page-link" href="#">Next</a></li>
-		</ul>
-	</nav>
-	</center>
-	<!--Paginación-->
-	<!--Footer-->
-	<ul class="nav flex-column" style="background-color:#FA6A6A">
-		<li class="nav-item">
-			<a class="nav-link active" href="#">Active</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="#">Link</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="#">Link</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-		</li>
-	</ul>
-	<!--Footer-->
+	<footer class="container-fluid">
+		<div class="row footer1">
+			<div class="col-12 col-md-4">
+				<ul><br>
+					<center><img src="img/imagen.png" width="160px"></center>
+					<br>
+				</ul>	
+			</div>
+			<div class="col-12 col-md-4">
+				<h4>Contáctanos</h4>
+				<p class="letrasFo"><i class="material-icons">phone</i>  Tel. 45 56 89 74</p>
+				<p class="letrasFo"><i class="material-icons">contact_mail</i>  caty0297@hotmail.com</p>
+				<p class="letrasFo"><i class="material-icons">group</i><a href="https://www.facebook.com/KiraKamiShop/">  Sister's Makers en Facebook</a></p>
+			</div>
+			<div class="col-12 col-md-4">
+				<h4>Acerca de nosotras</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam nulla, voluptates, cum dolores consequuntur, sunt natus laborum explicabo minima distinctio, sapiente recusandae nostrum. Eos numquam eligendi optio praesentium, nulla, est.</p>
+			</div>
+		</div>
+		<div class="row footer2">
+			<div class="col-12">
+				<div class="footer-copyright text-center py-3">© 2019 Copyright. Todos los derechos reservados.
+				</div>
+			</div>
+		</div>
+	</footer>
 
 	<script type="text/javascript" src="js/app.js"></script>
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
