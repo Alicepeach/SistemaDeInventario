@@ -1,0 +1,12 @@
+.logoLetras{
+	font-family: 'Indie Flower', cursive;
+	font-size: 35px;
+}
+
+.md-light{ 
+	font-size: 35px;
+	color: rgba(255, 255, 255, 1); 
+}
+.md-light:hover {
+	color: #312626;
+}
