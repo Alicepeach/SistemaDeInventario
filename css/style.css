@@ -1,3 +1,14 @@
+.navAdmin{
+	justify-content: center;
+	background: #F69A9A;
+	color: white;
+	font-size: 25px;
+}
+
+.navAdmin:hover{
+	color:#590000;
+}
+
 .expansion{
 	width: 100%;
 }
